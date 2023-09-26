@@ -1,0 +1,70 @@
+/* TripPlanner.css */
+.trip-planner {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 70px;
+  /* position: absolute; */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+
+h1 {
+  color: #FF6300;
+}
+
+.activity-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.activity-form input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 0px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.daate{
+  margin-left: 0px;
+}
+.plaace{
+  margin-left: 30px;
+}
+.nootte{
+  margin-left: 40px;
+}
+.activity-form button {
+  background-color: #FF6300;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: -40px;
+}
+
+.activity-list .activity-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.activity-list button {
+  background-color: #FF6300;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}

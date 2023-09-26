@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+  
+  
+  font-family: Arial, sans-serif;
+  margin: 70px;
+  padding: 70px;
+}
+#bgimggg{
+  height: 600px;
+  margin-top: -140px;
+  width: 1250px;
+  margin-left: -130px;
+}
+/* App Styles */
+#main {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 6px  #ffa973;
+ margin-left:400px;
+ margin-top: 40px;
+}
+
+#main div {
+  text-align: center;
+  color: rgb(34, 33, 33);
+  margin-bottom: 20px;
+}
+.profuul{
+  background-image: url('../images/profile.jpg');
+  width: 113%;
+  margin-left: -160px;
+  height: 70%;
+  margin-top: -50px;
+  position: absolute;
+}
+.fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; 
+  margin-top: 20px;
+}
+
+.fields input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.btnnn  {
+  background-color: #FF6300;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  height: 30px;
+  width: 75px;
+  font-size: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: 7px;
+  
+  display: inline-flex;
+  margin-inline-start:35px;
+  margin-right:20px;
+}
+.btnnn:hover{
+  background-color: #f56811;
+}
+
+button:disabled {
+  display: inline-flex;
+  background-color: #FF6300;
+  cursor: not-allowed
+  
+  
+}

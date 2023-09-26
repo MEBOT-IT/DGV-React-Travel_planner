@@ -1,0 +1,59 @@
+#anpg-all {
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 550px;
+  padding-left: 28%;
+  margin-top: -180px;
+  background: linear-gradient(10deg, #fbda61, #ff5acd);
+}
+#anpg-details {
+  background-color: white;
+  position: absolute;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  padding-left: 130px;
+  width: 400px;
+  box-shadow: 0 0 10px black;
+}
+#anpg-details h2 {
+  margin-left: 3px;
+}
+.payname{
+  margin-left: 180px;
+  margin-top:0px;
+}
+.payemail{
+  margin-left: 100px;
+  margin-top: 0px;
+}
+.paydes{
+  margin-left: 150px;
+  margin-top: 0px;
+}
+#anpg-details p {
+  font-size: 20px;
+  margin-left: -20px;
+}
+#pnbtn {
+  margin-left: 50px;
+  padding: 8px;
+  background-color: #ff6300;
+  color: white;
+  border: 2px solid #ff6300;
+  cursor: pointer;
+  width: 190px;
+  height: 50px;
+}
+#pnbtn:hover{
+  background-color: #d85503;
+}
+.otherdetspan {
+  margin-left: 200px;
+}
+#nopspan {
+  margin-left: 140px;
+}
+.totdash {
+  margin-left: 210px;
+}

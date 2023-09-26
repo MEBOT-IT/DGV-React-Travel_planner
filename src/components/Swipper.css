@@ -1,0 +1,77 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper2 {
+    width: 100%;
+    height: 100%;
+    margin-left: -150px;
+  }
+  
+  .swiper-slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: white;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .rating-slide2 img{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 250px;
+    height: 300px;
+    margin-left: 0px;
+}
+.rating-slide2 :hover{
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    transform: scale(1.1)
+}
+#dnfd{
+    margin-left: 200px;
+    font-size: 40px;
+    width: 1000px;
+    color: rgb(58, 53, 53);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#gifg{
+    margin-left: 250px;
+    width: 1000px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#swwipper-full{
+  margin-top: 120px;
+  margin-left: -30px;
+}
+.myySwiper2{
+  margin-left: -60px;
+  width: 132%;
+  margin-top: 30px;
+}

@@ -1,0 +1,43 @@
+.travel-planner {
+    font-size: 34px;
+    font-weight: 30px;
+    text-align: left;
+    color:white;
+    padding: 20px;
+    background-color: #FF6300;
+    width: 600px;
+    border: 1px solid #ccc;
+    padding-bottom: 200px;
+}
+p{
+    margin-left:30px ;
+}
+.travel-image {
+    max-width: 100%;
+    height: auto;
+  }
+#count-full{
+    margin-top: 300px;
+    margin-bottom: 300px;
+    margin-left: -100px;
+}
+#countp1{
+    padding-left: 70px;
+    position: relative;
+    top: 50px;
+    width: 700px;
+    height: 50px;
+}
+#countp2{
+    padding-left: 180px;
+    position: relative;
+    top: 100px;
+}
+#mobStyle{
+    width: 400px;
+    height: 400px;
+    float: right;
+    left: 80%;
+    position: relative;
+    bottom: 160px;
+}

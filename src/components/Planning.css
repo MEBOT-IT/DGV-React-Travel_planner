@@ -1,0 +1,29 @@
+#ready {
+  left: 20%;
+  position: absolute;
+  color: rgb(58, 53, 53);
+  font-size: 30px;
+  margin-left: 100px;
+  width: 1000px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",  serif;
+}
+#plan-full {
+  margin-top: 200px;
+  margin-bottom: 250px;
+  margin-left: 130px;
+}
+.bttn {
+  font-size: 18px;
+  color: white;
+  background-color: #ff6300;
+  font-weight: 550;
+  padding: 17px;
+  border: none;
+  border-radius: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",  serif;
+  margin-left: 45%;
+}
+.bttn:hover{
+  transform: scale(1.22);
+  background-color: #ff6300;
+}

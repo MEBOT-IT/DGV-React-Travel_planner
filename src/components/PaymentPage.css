@@ -1,0 +1,56 @@
+#paymentpg-all {
+  position: relative;
+  padding-top: 125px;
+  padding-bottom: 550px;
+  padding-left: 28%;
+  margin-top: -140px;
+  /* background: url('./images/paymentbackground.jpg') no-repeat; */
+  background: linear-gradient(10deg, #fbda61, #ff5acd);
+}
+#paymentpg-details {
+  background-color: white;
+  position: absolute;
+  padding-top: 60px;
+  padding-right: 100px;
+  padding-left: 100px;
+  height: 85%;
+  margin-top: -120px;
+  box-shadow: 0 0 10px black;
+}
+#payp {
+  font-size: 22px;
+}
+.first2 {
+  width: 322px;
+  height: 33px;
+}
+#paymentFormPH input::placeholder {
+  padding: 25px;
+}
+.second2 {
+  width: 150px;
+  height: 33px;
+}
+#totamt {
+  padding-left: 98px;
+}
+#mp {
+  margin-left: 90px;
+  padding: 8px;
+  background-color: #ff6300;
+  color: white;
+  border: 2px solid #ff6300;
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+}
+#mp:hover{
+  background-color: #d85503;
+}
+#VeriV img{
+  padding-left: 30px;
+  padding-right: 40px;
+  margin-top: -20px;
+  margin-left: 20px;
+  /* position: absolute; */
+}

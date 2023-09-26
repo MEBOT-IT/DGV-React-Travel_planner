@@ -1,0 +1,92 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+#navbaaar {
+  position: fixed;
+  background-color: #ff6300;
+  /* background-image: linear-gradient(30deg, #DE791E, #FCCF3A); */
+  width: 120%;
+  margin-top: 10px;
+  height: 90px;
+  top: 0;
+  margin: 0;
+  border-color: #ff6300;
+  z-index: 9999;
+  margin-left: -190px;
+}
+#navbaaar ul {
+  display: flex;
+}
+#ourLogo{
+  height: 80px;
+  margin-top: -10px;
+}
+.profile {
+  margin-left: 1200px;
+  margin-top: -70px;
+  position: absolute;
+  background-color: white;
+  border-radius: 100%;
+  /* color: white; */
+  /* position: absolute; */
+}
+#navbaaar ul li {
+  position: relative;
+  left: 25%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 0%;
+  font-size: 17px;
+  padding: 20px;
+  font-weight: 550;
+  list-style: none;
+}
+#navbaaar ul li a {
+  color: white;
+  text-decoration: none;
+}
+.login-button {
+  color: white;
+  text-transform: uppercase;
+  margin: 0%;
+  font-size: 17px;
+  margin-left: 350px;
+  margin-top: 30px;
+  font-weight: 550;
+}
+.login-button:hover {
+  background-color: white;
+  color: #ff6300;
+  height: 25px;
+  /* padding: auto; */
+}
+#navbaaar ul li img {
+  padding-left: 90px;
+  
+  
+}
+#navbaaar ul li.lidec {
+  margin-top: 0px;
+}
+/* .profile{
+  margin-top: 40px;
+} */
+.navbutton {
+  color: #ff6300;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px;
+  padding-left: 25px;
+  margin-top: 4px;
+  padding-right: 25px;
+  border: none;
+  border-radius: 100px;
+}
+#navbaaar ul li a:hover {
+  background-color: white;
+  padding: auto;
+}
+#navbaaar ul li a:hover {
+  color: #ff6300;
+}

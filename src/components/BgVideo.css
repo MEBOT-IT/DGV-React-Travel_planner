@@ -1,0 +1,104 @@
+/* Base styles for all screen sizes */
+.Main {
+  /* position: relative; */
+  margin-top: -80px;
+  margin-left: -200px;
+  
+}
+
+#bgimg {
+  width: 134%;
+  height: 90vh;
+  /* object-fit: fill; */
+  background-position: center;
+  background-size: cover;
+  /* position: relative; */
+  border: none;
+  margin-left: 12px;
+  margin-top: -13px;
+}
+
+#sp {
+  position: relative;
+  bottom: 350px;
+  right: 180px;
+  font-size: 18px;
+  /* margin-left: 400px; */
+  float: right;
+  padding: 17px;
+  border: 2px solid #ff6300;
+  color: white;
+  background-color: #ff6300;
+  border-radius: 100px;
+  font-weight: 550;
+}
+
+#sp:hover {
+  transform: scale(1.25);
+  background-color: #d85503;
+}
+#whatsapp {
+  position: fixed;
+  width: 50px;
+  
+  height: 50px;
+  bottom: 100px;
+  left: 92%;
+}
+#whatsapp:hover {
+  transform: scale(1.22);
+}
+
+#scroll {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+#mainh1 {
+  position: relative;
+  color: white;
+  bottom: 540px;
+  right: 760px;
+  float: right;
+  font-size: 35px;
+}
+#mainimg {
+  position: relative;
+  bottom: 610px;
+  right: 1090px;
+  float: right;
+}
+#mainp {
+  position: relative;
+  float: right;
+  bottom: 420px;
+  right: 430px;
+  width: 800px;
+  color: white;
+  left: 300px;
+  /* margin-left: 300px; */
+  /* width: 500px; */
+  font-size: 45px;
+}
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* #sp {
+    position: relative;
+    float: none;
+    margin-top: 40px; 
+   
+    text-align: center;
+    left: 150%;
+    margin-left: 200px;
+    margin-left: 500px;
+  } */
+
+  #whatsapp {
+    left: 90%; /* Adjust as needed */
+  }
+}
